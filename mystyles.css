@@ -345,11 +345,13 @@
   display: flex;
   margin:1%;
 
+
 }
 
-.jumbotron{
+#jumbotron2{
   text-align: center;
   font-family: 'Raleway', sans-serif;
+  color: #bcd5d1;
 }
 
 
