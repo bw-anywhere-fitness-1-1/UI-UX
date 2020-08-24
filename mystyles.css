@@ -344,18 +344,14 @@
 .header{
   display: flex;
   margin:1%;
-  border: 1px solid red;
+
 }
 
 .jumbotron{
   text-align: center;
-  border: 1px solid blue;
   font-family: 'Raleway', sans-serif;
 }
 
-.jumbotron2{
-border: 1px solid white;
-}
 
 #pictures{
   display: flex;
