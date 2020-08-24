@@ -1,12 +1,20 @@
 #cards{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 5%;
 }
+
+*{
+  font-family: ‘Raleway’, sans-serif;
+}
+
 
 body { padding-top: 70px; }
 .jumbotron {
   color: #2c3e50;
   background: #ecf0f1;
-
+  font-family: ‘Raleway’, sans-serif;
 }
 .navbar-inverse {
   background: #2c3e50;
@@ -18,3 +26,12 @@ body { padding-top: 70px; }
 .navbar-inverse .navbar-nav>li>a {
   color: white;
 } 
+
+#pictures{
+  display: flex;
+  
+}
+
+#pictures .a{
+  height: 20vh;
+}
