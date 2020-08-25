@@ -1,0 +1,194 @@
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+* {
+    box-sizing: border-box;
+    font-family: ‘Raleway’, sans-serif;
+    background-color: #1d2120;
+    color: #bcd5d1;
+    border:1px solid red;
+}
+img {	
+    width:60%;
+    margin: 2%;	
+    margin-top: 4%;	
+    border-radius: 2%;	
+}	
+a {
+    text-decoration: none;
+}
+header{
+    display:flex;
+    justify-content: space-evenly;
+}
+header nav {
+    width:100%;
+    display:flex;
+    justify-content:space-evenly;
+    margin:1%;
+}
+header a {
+    width:100%;
+    margin:4%;
+}
+header h1 {
+    padding:0 4%;
+    font-size:2.5rem;
+}
+.banner{
+    text-align:center;
+    background-color: #ba9077;
+    padding:1%;
+    color:#1d2120;
+    font-size: 1.2rem;
+}
+h2 {
+    font-size: 3rem;
+    background:none;
+    color:#1d2120;
+}
+.content-first {
+    margin: 3%;
+    padding: 12% 0;
+    background-image:url("img/Boss.jpg") ;
+    background-position:center top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.content-first p {
+    font-size:1.2rem;
+    width: 32%;
+    color:#1d2120;
+    background:none;
+}
+.content-second {
+    margin: 3%;
+    padding: 12% 0;
+    background-image: url("img/Class.jpg");
+    background-position:center top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.content-second p {
+    font-size:1.2rem;
+    width: 22%;
+    color:#1d2120;
+    background:none;
+}
+.content-third {
+    margin: 3%;
+    padding: 12% 0;
+    background-image: url("img/Schedule.jpg");
+    background-position:center top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.content-third p {
+    font-size:1.2rem;
+    width: 35%;
+    color:#1d2120;
+    background:none;
+}
+footer {
+    display:flex;
+    justify-content: center;
+    padding: 2% 0 0 0;
+    background-color:#5a5c51 ;
+}
+footer nav{
+    background-color: #5a5c51;
+    padding: 2%;
+    display:flex;
+    justify-content: space-evenly;
+}
+footer a{
+    background-color: #5a5c51;
+    margin: 0 2%;
+    white-space: nowrap;
+}
+.about-container h1{
+    text-align:center;
+    font-size: 2rem;
+}
+.half{
+    display:flex;
+}
+.half{
+    display:flex;
+}
+.about p{
+    width:90%;
+}
+.about div{
+    margin: 4%;
+}
+@media(max-width:900px){
+    *{
+        text-align:center;
+    }
+    header{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .content-first p {
+        width: 100%;
+    }
+    .content-second p {
+        width: 100%;
+    }
+    .content-third p {
+        width: 100%;
+    }
+    .half{
+        flex-direction:column;
+    }
+    .about p{
+        width:100%
+    }
+}
+@media(max-width:500px){
+    h2{
+        font-size:2rem;
+    }
