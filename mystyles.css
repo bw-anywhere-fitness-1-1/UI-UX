@@ -343,16 +343,13 @@
 }
 
 .header{
-  /* display: flex; */
+  display: flex;
   margin:1%;
-
-
+  color:  #bcd5d1;
 }
 
 
-
-
-.textcolor{
+.bg{
   text-align: center;
   font-family: 'Raleway', sans-serif;
   color: #bcd5d1;
@@ -377,3 +374,6 @@ img{
    justify-content: center;
  }
 }
+
+
+
