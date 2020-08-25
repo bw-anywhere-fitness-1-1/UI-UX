@@ -325,15 +325,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
 #cards{
     display: flex;
     flex-wrap: wrap;
@@ -344,25 +335,49 @@
 
 .header{
   display: flex;
-  margin:1%;
+  justify-content: center;
   color:  #bcd5d1;
 }
 
-
-.bg{
+#jumbo{
   text-align: center;
   font-family: 'Raleway', sans-serif;
   color: #bcd5d1;
 }
 
 
+
+
 #pictures{
   display: flex;
+  margin: 2%;
 }
 
 img{
   width: 100%;
 }
+
+
+#about{
+  border: 10px solid #5a5c51;
+  text-align: center;
+  color: #bcd5d1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (min-width: 500px) {  
   .header{
