@@ -28,9 +28,9 @@
    font-size: 1rem;
    font-weight: 400;
    line-height: 1.5;
-   /* color: #212529; */
+   color: #212529;
    text-align: left;
-   /* background-color: #fff; */
+   background-color: #fff;
  }
  
  [tabindex="-1"]:focus:not(:focus-visible) {
@@ -330,8 +330,7 @@
    border: 20px solid #ba9077;
    background: #1d2120;
    color: #bcd5d1;
-   font-family: 'Raleway', sans-serif;
-   
+   font-family: 'Raleway', sans-serif; 
  }
 
 
@@ -344,17 +343,6 @@
     padding: 5%;
     
 }
-
-
-
-
-#jumbo{
-  background: #1d2120;
-  font-family: 'Raleway', sans-serif;
-  color: #bcd5d1;
-}
-
-
 
 
 .pictures{
@@ -375,6 +363,7 @@
   border: 10px solid #5a5c51;
   text-align: center;
   color: #bcd5d1;
+  background: #1d2120;
 }
 
 .page-footer{
